@@ -27,6 +27,7 @@ def main():
     mismatch = find_mismatch(text)
     # Printing answer, write your code here
     input_choose = input()
+    input_choose.upper()
     if input_choose == "I":
         print(mismatch)
     else:
